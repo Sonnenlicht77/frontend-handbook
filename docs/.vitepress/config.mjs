@@ -1,9 +1,13 @@
+/*
+ * @Author: yangyang993 sonnenlicht@foxmail.com
+ */
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "前端知识库",
   description: "一个基于前端开发的个人知识库",
+  base: "/frontend-handbook/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
